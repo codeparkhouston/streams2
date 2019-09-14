@@ -630,3 +630,6 @@ pre tt:after {
   flex: 1;
   min-width: 100px;
 }
+.media-image:hover {
+  opacity: 0.95;
+}

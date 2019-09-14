@@ -23,7 +23,6 @@ exports.createPages = async ({ graphql, actions }) => {
   `)
   result.data.allAirtable.edges.forEach(edge => {
     edge.node.data.Media.localFiles.forEach(({ childImageSharp: { id } }) => {
-      console.log(id);
       createPage({
         path: `/media/${id}`,
 	component: path.resolve(`./src/templates/image.js`),

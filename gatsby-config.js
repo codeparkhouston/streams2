@@ -29,6 +29,17 @@ module.exports = {
             tableView: `Stream`,
             mapping: { Media: `fileNode` },
           },
+          {
+            baseId: `appNRpGKcfTxSGyLF`,
+            tableName: `Programs`,
+            tableView: `Program Catalog`,
+          },
+          {
+            baseId: `appNRpGKcfTxSGyLF`,
+            tableName: `Events`,
+            tableView: `All`,
+            tableLinks: [ `Program` ],
+          },
 	]
       }
     },
