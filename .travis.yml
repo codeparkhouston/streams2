@@ -6,7 +6,7 @@ install:
 cache:
   directories:
     - node_modules
-before_deploy: npm run build
+before_deploy: npm run build --prefix-paths
 deploy:
   provider: pages
   local_dir: public

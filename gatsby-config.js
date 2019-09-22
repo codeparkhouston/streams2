@@ -1,5 +1,6 @@
 require('dotenv').config();
 module.exports = {
+  pathPrefix: `/streams2`,
   siteMetadata: {
     title: `Code Park Streams`,
     description: `Stream of images from Code Park events and meetups.`,
