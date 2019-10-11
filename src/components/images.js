@@ -50,7 +50,7 @@ const Images = () => {
           </React.Fragment>
         )}
       </div>
-      <p>{edge.node.data.Date_Taken} - {edge.node.data.Tag_Line}</p>
+      <p>{edge.node.data.Tag_Line}</p>
     </div>
   );
 }
