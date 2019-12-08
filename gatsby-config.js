@@ -4,6 +4,23 @@ module.exports = {
     title: `Code Park Streams`,
     description: `Stream of images from Code Park events and meetups.`,
     author: `@codeparkhouston`,
+
+    menuLinks:[
+      {
+        name:'home',
+        link:'/'
+      },
+      {
+        name:'media',
+        link:'/media'
+      },
+      {
+        name:'page2',
+        link:'/page-2'
+      }
+    ],
+
+
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

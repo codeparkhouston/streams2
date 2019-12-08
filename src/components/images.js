@@ -43,7 +43,7 @@ const Images = () => {
     <div>
       <div className="media-container">
         { edge.node.data.Media.localFiles.map(files =>
-          <React.Fragment>
+          <React.Fragment> {/*We need an ID for this tag, to avoid the warning: https://reactjs.org/docs/lists-and-keys.html#keys */}
             <Link className="media-image" to={`/media/${files.childImageSharp.id}`}>
               <Img style={{height: "100%"}} fluid={files.childImageSharp.fluid} />
             </Link>
